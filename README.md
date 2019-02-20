@@ -20,7 +20,6 @@ docker build -t [your_account]/kibana:6.6.0 .
 
 `
 docker run --name kibana -p 5602:5601 -e ELASTICSEARCH_URL=http://myelastichost:9200 -d dvriesman/kibana:6.6.0
-
 `
 
 ## Run fluentbit
